@@ -28,6 +28,11 @@ The file `./src/gdexample.h` contains in line 6 the commented out include line `
 Even though I am not the first one trying to find a solution to e.g. use SCons for a Qt-Project, the search results are very rare and mostly severly outdated.
 
 Here are a few examples:
-  * https://stackoverflow.com/questions/975188/how-do-i-use-qt-and-scons-together
-  * https://github.com/codytappan/SconsQt5
-  * https://ask.godotengine.org/17065/how-to-configure-godot-with-qt-using-scons-in-windows
+  * Asked about ten years ago. Both Godot and Qt have evolved since quite a bit. Most links broken since (no surprise)
+    * https://stackoverflow.com/questions/975188/how-do-i-use-qt-and-scons-together
+  * Calls itself the 'Scons qt5 tool', but there is only one commit from five years ago, and the whole thing looks just like a bit of abandoned experimenting:
+    * https://github.com/codytappan/SconsQt5
+  * Pretty much this exact question asked in the Godot-Forums, but it is from 2017 and Godot has changed quite a bit since than. Also the Guy provides basically zero information of how he tried to solve the problem and how he actually managed to make it work:
+    * https://ask.godotengine.org/17065/how-to-configure-godot-with-qt-using-scons-in-windows
+
+
