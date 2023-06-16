@@ -36,4 +36,9 @@ Even though I am not the first one trying to find a solution to e.g. use SCons f
     * https://ask.godotengine.org/17065/how-to-configure-godot-with-qt-using-scons-in-windows
 
 ### more promising search results
+#### Using CMake for Godot
   * https://thatonegamedev.com/cpp/godot-native-using-cmake/
+
+#### Using SCons for Qt
+  * https://github.com/SCons/scons/wiki/FromQmakeToScons?highlight=(qt)
+
