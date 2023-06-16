@@ -41,6 +41,7 @@ So the two basic ideas we could go down with are:
   * using scons for qt (and godot)
 
 #### Using CMake for Godot
+Nice approach, but it is still going with GDNative, which is the predecessor of Godot 4's GDExtension:
   * https://thatonegamedev.com/cpp/godot-native-using-cmake/
 
 #### Using SCons for Qt
