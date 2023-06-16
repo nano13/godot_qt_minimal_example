@@ -43,7 +43,7 @@ So the two basic ideas we could go down with are:
 One question to be answered before would be what build system is better or more promising to begin with, and which of these approaches would make more sense / would be how much of an effort.
 
 #### Using CMake for Godot
-Nice approach, but it is still going with GDNative, which is the predecessor of Godot 4's GDExtension:
+Nice approach, but it is still going with GDNative (Godot 3.2.3), which is the predecessor of Godot 4's GDExtension:
   * https://thatonegamedev.com/cpp/godot-native-using-cmake/
 
 #### Using SCons for Qt
