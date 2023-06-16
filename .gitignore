@@ -1,3 +1,5 @@
+qt_minimal_example/build*
+
 # C++ objects and libs
 *.slo
 *.lo
