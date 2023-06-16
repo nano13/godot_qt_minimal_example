@@ -1,5 +1,5 @@
 # godot_qt_minimal_example
-Trying to create a Godot Extension in C++ and with the use of Qt
+Trying to create a Godot 4 Extension in C++ and with the use of Qt
 
 The main issue I try to solve here is to bring together two different build-systems:
   * Godot is using SCons
