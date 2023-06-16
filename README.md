@@ -40,6 +40,8 @@ So the two basic ideas we could go down with are:
   * using cmake for godot (and Qt)
   * using scons for qt (and godot)
 
+One question to be answered before would be what build system is better or more promising to begin with, and which of these approaches would make more sense / would be how much of an effort.
+
 #### Using CMake for Godot
 Nice approach, but it is still going with GDNative, which is the predecessor of Godot 4's GDExtension:
   * https://thatonegamedev.com/cpp/godot-native-using-cmake/
