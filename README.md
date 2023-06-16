@@ -22,7 +22,7 @@ https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/gdextensi
 * You can build the Qt-Example with the command `cmake --build ../build-qtminex-Desktop-Debug --target all` as shown in `./qt_minimal_example/qtminex/compile.sh`
 
 ## The Goal: Utilizing Qt in the GDExtension Project
-The file `./src/gdexample.h` contains in line 6 the commented out include line `//#include <QCoreApplication>`. If we comment that in, the SCons buildsystem used by Godot will not know how to handle that resulting in an error. If we try to compile this first with cmake/qmake, it will not be able to handle the Godot-Include `#include <godot_cpp/classes/sprite2d.hpp>` also resulting in an error.
+The file `./src/gdexample.h` contains in line 6 the commented out include line `//#include <QCoreApplication>`. If we comment that in, the SCons buildsystem used by Godot will not know how to handle that resulting in an error. If we try to compile this first with cmake/qmake, it will not be able to handle the Godot-Include `#include <godot_cpp/classes/sprite2d.hpp>` in line 4 also resulting in an error.
 
 ## Search Results
 Even though I am not the first one trying to find a solution to e.g. use SCons for a Qt-Project, the search results are very rare and mostly severly outdated.
